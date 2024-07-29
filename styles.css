@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #d0d0d0;
+}
+
+header {
+    background: linear-gradient(90deg, #1a1a1d, #4e4e50);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #1a1a1d;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    color: #ff6f61;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 10px 0;
+}
+
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+iframe {
+    border: none;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background: linear-gradient(90deg, #1a1a1d, #4e4e50);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Additional styling for visual enhancements */
+.intro, .importance, .charts, .age-rotation, .income-age, .correlation, .strategies, .conclusion {
+    background: rgba(30, 30, 30, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.intro h2, .importance h2, .charts h2, .age-rotation h2, .income-age h2, .correlation h2, .strategies h2, .conclusion h2 {
+    color: #ff6f61;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro p, .importance p, .charts p, .age-rotation p, .income-age p, .correlation p, .strategies p, .conclusion p {
+    font-size: 1.2em;
+    color: #d0d0d0;
+    line-height: 1.6em;
+    margin: 10px 0;
+}
+
+.intro ul, .importance ul, .charts ul, .age-rotation ul, .income-age ul, .correlation ul, .strategies ul, .conclusion ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.intro iframe, .charts iframe, .age-rotation iframe, .income-age iframe, .correlation iframe {
+    margin-top: 20px;
+    border-radius: 8px;
+}

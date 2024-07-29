@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Análisis de Rotación de Empleados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Blog de Análisis de Rotación de Empleados</h1>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Análisis de la Rotación de Empleados: Descubriendo los Patrones Ocultos</h2>
+            <p>
+                Gestionar una empresa implica numerosos desafíos, y uno de los más críticos es mantener a los empleados motivados y comprometidos. Sin embargo, a veces sucede que un porcentaje significativo del personal decide marcharse, lo que no solo impacta la moral del equipo restante, sino también la eficiencia y la productividad general de la organización. Comprender las razones detrás de la rotación de empleados es crucial para cualquier empresa que aspire a mantener un equipo estable y motivado.
+            </p>
+            <p>
+                En este análisis, utilizamos herramientas de ciencia de datos para explorar los datos de una empresa y descubrir los patrones ocultos detrás de la rotación de empleados. A través de gráficos interactivos y análisis detallados, identificaremos las variables clave que influyen en la decisión de los empleados de quedarse o irse. Nuestro objetivo es proporcionar estrategias prácticas y basadas en datos para mejorar la retención de empleados y crear un ambiente de trabajo más estable y motivador.
+            </p>
+        </section>        
+        <section class="importance">
+            <h2>La Importancia de Comprender la Rotación de Empleados</h2>
+            <p>
+                Imagina que estás gestionando una empresa y, de repente, un porcentaje significativo de tus empleados decide marcharse. Esto no solo afecta la moral del equipo restante, sino también la eficiencia y la productividad general de la empresa. Comprender las razones detrás de la rotación de empleados es crucial para cualquier organización que aspire a mantener un equipo estable y motivado.
+            </p>
+        </section>
+        <section class="charts">
+            <h2>Distribución de la Rotación de Empleados</h2>
+            <iframe src="fig1.html" width="100%" height="600px"></iframe>
+            <p>
+                Para empezar, un gráfico de pastel reveló que aproximadamente el 16.1% de los empleados han dejado la empresa, mientras que el 83.9% han permanecido. Aunque la mayoría de los empleados se quedan, ese 16.1% de rotación es lo suficientemente significativo como para merecer atención. Esta métrica inicial nos indica que hay un margen considerable para mejorar la retención de empleados.
+            </p>
+        </section>
+        <section class="age-rotation">
+            <h2>La Edad y su Relación con la Rotación</h2>
+            <iframe src="fig5.html" width="100%" height="600px"></iframe>
+            <p>
+                Un análisis más profundo, utilizando gráficos de violín y boxplots, mostró que:
+                <ul>
+                    <li>Los empleados que han dejado la empresa tienden a ser más jóvenes, con una mediana de edad alrededor de los 31 años.</li>
+                    <li>Los empleados que se han quedado tienen una mediana de edad mayor, alrededor de los 36 años.</li>
+                </ul>
+                Esto sugiere que los empleados más jóvenes tienen una mayor propensión a dejar la empresa, lo cual puede estar relacionado con factores como la búsqueda de oportunidades de crecimiento, la satisfacción laboral, y otros aspectos personales y profesionales.
+            </p>
+        </section>
+        <section class="income-age">
+            <h2>Ingreso Mensual vs Edad por Rotación de Empleados</h2>
+            <iframe src="fig3.html" width="100%" height="600px"></iframe>
+            <p>
+                El siguiente paso fue analizar la relación entre el ingreso mensual y la edad en el contexto de la rotación de empleados. Un gráfico de dispersión reveló que:
+                <ul>
+                    <li>A medida que aumenta la edad, también aumenta el ingreso mensual.</li>
+                    <li>No hay una relación clara entre el ingreso mensual y la rotación de empleados, ya que tanto los empleados que se quedan como los que se van se distribuyen a lo largo del rango de ingresos.</li>
+                </ul>
+                Esto indica que, aunque el ingreso mensual es un factor importante, no es el único que influye en la decisión de los empleados de quedarse o irse. Otros factores, como la satisfacción laboral y las oportunidades de desarrollo profesional, también juegan un papel crucial.
+            </p>
+        </section>
+        <section class="correlation">
+            <h2>Relaciones de Correlación Reveladoras</h2>
+            <iframe src="fig4.html" width="100%" height="600px"></iframe>
+            <p>
+                La matriz de correlación mostró algunas relaciones interesantes:
+                <ul>
+                    <li>Hay una correlación negativa entre la rotación (Attrition) y factores como la edad, el nivel de trabajo, los años totales de experiencia, los años en la empresa y el ingreso mensual. Esto indica que los empleados mayores, con niveles de trabajo más altos, más años de experiencia y mayores ingresos mensuales, tienen menos probabilidades de dejar la empresa.</li>
+                    <li>La satisfacción en el trabajo, la satisfacción con el entorno laboral y el compromiso en el trabajo también muestran correlaciones negativas, aunque más débiles, con la rotación. Esto sugiere que la satisfacción y el compromiso en el trabajo pueden influir en la decisión de quedarse en la empresa.</li>
+                </ul>
+            </p>
+        </section>
+        <section class="strategies">
+            <h2>Estrategias para Mejorar la Retención de Empleados</h2>
+            <iframe src="fig2.html" width="100%" height="600px"></iframe>
+            <p>
+                Basándonos en estos hallazgos, aquí hay algunas sugerencias prácticas para reducir la rotación de empleados:
+                <ul>
+                    <li><b>Programas de Retención para Empleados Jóvenes:</b> Los empleados más jóvenes tienden a buscar crecimiento y desarrollo. Implementar programas específicos que ofrezcan oportunidades de desarrollo profesional y avance dentro de la empresa puede ayudar a mantener a este grupo comprometido y reducir su tasa de rotación.</li>
+                    <li><b>Aumentar la Satisfacción y el Compromiso:</b> La satisfacción laboral y el compromiso son esenciales para la retención. Realizar encuestas de satisfacción periódicas, establecer programas de reconocimiento y recompensas, y mejorar el ambiente de trabajo pueden ser medidas efectivas para aumentar la lealtad de los empleados.</li>
+                    <li><b>Revisión de Políticas Salariales:</b> Aunque el ingreso mensual no muestra una correlación fuerte con la rotación, es fundamental que los empleados se sientan adecuadamente compensados. Revisar y ajustar las políticas salariales para garantizar que los salarios sean competitivos en el mercado puede contribuir a la retención de personal.</li>
+                    <li><b>Desarrollo de Carrera:</b> Proveer caminos claros para el desarrollo de carrera y promociones puede ayudar a retener a los empleados que buscan crecimiento profesional. Ofrecer programas de mentoría, capacitaciones y oportunidades de ascenso puede ser particularmente útil para empleados con varios años en la empresa que buscan nuevas oportunidades de desarrollo.</li>
+                </ul>
+            </p>
+        </section>
+        <section class="conclusion">
+            <h2>Reflexión Final</h2>
+            <iframe src="fig6.html" width="100%" height="600px"></iframe>
+            <p>
+                En resumen, comprender y analizar la rotación de empleados es esencial para cualquier empresa que desee mantener un equipo estable y productivo. A través de la ciencia de datos, podemos identificar patrones y factores clave que influencian la decisión de los empleados de quedarse o irse, permitiendo a las empresas tomar medidas informadas para mejorar la retención y el ambiente laboral.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog de Análisis de Datos</p>
+    </footer>
+</body>
+</html>
